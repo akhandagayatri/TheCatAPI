@@ -169,3 +169,8 @@ DELETE 'https://api.thecatapi.com/v1/images/6nd1mD1zw' \
 
 ***
 😹  *"O tempo gasto com gatos nunca é tempo perdido"*. - Sigmund Freud
+
+***
+
+_Esta documentação também está disponível em_ https://documenter.getpostman.com/view/23760915/2s8YsuurZs
+
