@@ -37,7 +37,7 @@ Este endpoint **cria** uma nova imagem quando é informado um arquivo **válido*
 
 ### Exemplo de requisição:
 
-``` json 
+```  
 curl -X 'POST' \
 POST 'https://api.thecatapi.com/v1/images/upload' \
 --header 'x-api-key: live_w10RexaKpMeFam5ubRnZZ4hHui6WWajbHQ95pWkGkZsch9kAxa6nSodlPSJ5PnBj' \
@@ -49,7 +49,7 @@ POST 'https://api.thecatapi.com/v1/images/upload' \
 > 😻 A resposta de código `201 Created` indica que o arquivo da imagem foi criado com sucesso. Ela retorna um JSON com as informações, incluindo o novo `Id`.
 
 ### Exemplo de response body:
-``` json 
+``` json
 {
     "id": "N40r_E3J-",
     "url": "https://cdn2.thecatapi.com/images/N40r_E3J-.jpg",
@@ -78,7 +78,7 @@ Para **limitar** o retorno, use estes _**query params**_:
 
 ### Exemplo de requisição:
 
-``` json 
+``` 
 curl --location --request 
 GET 'https://api.thecatapi.com/v1/images?limit=3' \ 
 --header 'x-api-key: live_w10RexaKpMeFam5ubRnZZ4hHui6WWajbHQ95pWkGkZsch9kAxa6nSodlPSJ5PnBj'
@@ -91,7 +91,7 @@ GET 'https://api.thecatapi.com/v1/images?limit=3' \
 
 ### Exemplo de response body:
 
-``` json 
+```  json
 [
   {
     "breeds": [],
@@ -117,7 +117,7 @@ Este endpoint **busca** a imagem correspondente ao _**path param**_  `image_id`.
 
 ### Exemplo de requisição:
 
-``` json 
+``` 
 curl --location --request 
 GET 'https://api.thecatapi.com/v1/images/6nd1mD1zw' \ 
 --header 'x-api-key: live_w10RexaKpMeFam5ubRnZZ4hHui6WWajbHQ95pWkGkZsch9kAxa6nSodlPSJ5PnBj'
@@ -129,7 +129,7 @@ GET 'https://api.thecatapi.com/v1/images/6nd1mD1zw' \
 
 ### Exemplo de response body:
 
-``` json 
+```  json 
 [
   {
     "breeds": [],
@@ -155,7 +155,7 @@ Este endpoint **exclui** o registro correspondente ao _**path param**_  `image_i
 
 ### Exemplo de requisição:
 
-``` json 
+``` 
 curl --location --request 
 DELETE 'https://api.thecatapi.com/v1/images/6nd1mD1zw' \ 
 --header 'x-api-key: live_w10RexaKpMeFam5ubRnZZ4hHui6WWajbHQ95pWkGkZsch9kAxa6nSodlPSJ5PnBj'
