@@ -172,5 +172,5 @@ DELETE 'https://api.thecatapi.com/v1/images/6nd1mD1zw' \
 
 ***
 
-_Esta documentação também está disponível em_ https://documenter.getpostman.com/view/23760915/2s8YsuurZs 
+_Esta documentação também está disponível no Postman em_ https://documenter.getpostman.com/view/23760915/2s8YsuurZs 
 
